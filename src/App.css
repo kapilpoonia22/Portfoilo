@@ -1,0 +1,33 @@
+/* In index.css or App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Hero section fix */
+.hero {
+  width: 100%; /* ✅ full width */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* 🔽 Ensure no side gaps on small devices */
+@media (max-width: 768px) {
+  .hero {
+    width: 100vw;  /* ✅ Full viewport width */
+    padding: 20px 16px;
+  }
+
+  .hero h1, .hero p {
+    text-align: center;
+  }
+}
