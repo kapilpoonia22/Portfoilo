@@ -28,21 +28,22 @@ const About = () => {
         </div>
       </div>
       <div className='about-achievments'>
-        <div className='about-achievment'>
-          <h1>5+</h1>
-          <p>FREELANCE PROJECTS</p>
-        </div>
-        <hr />
-        <div className='about-achievment'>
-          <h1>3+</h1>
-          <p>LIVE CLIENT WORKS</p>
-        </div>
-        <hr />
-        <div className='about-achievment'>
-          <h1>100%</h1>
-          <p>LEARNING DEDICATION</p>
-        </div>
-      </div>
+  <div className='about-achievment'>
+    <h1>✔️</h1>
+    <p>READY TO LEARN</p>
+  </div>
+  <hr />
+  <div className='about-achievment'>
+    <h1>✔️</h1>
+    <p>OPEN FOR INTERNSHIPS</p>
+  </div>
+  <hr />
+  <div className='about-achievment'>
+    <h1>✔️</h1>
+    <p>BUILDING PROJECTS</p>
+  </div>
+</div>
+
     </div>
   )
 }
