@@ -25,7 +25,7 @@ const mywork_data = [
     w_name: "Web Design",
     w_img: pic3,
     git_url: "https://github.com/kapilpoonia22",
-    live_url: "https://yourproject3.live"
+    live_url: "https://portfoilo-nine-iota.vercel.app/"
   },
   {
     w_no: 4,
